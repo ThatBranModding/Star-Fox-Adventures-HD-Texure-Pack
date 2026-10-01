@@ -1,6 +1,6 @@
 # Star Fox Adventures HD Texture Pack for Foxhollow
 
-An HD texture and text replacement pack for **Star Fox Adventures**, ported for use with **Foxhollow**.
+A HD texture and text replacement pack for **Star Fox Adventures**, ported for use with **Foxhollow**.
 
 This project ports and merges the existing Dolphin HD texture pack by CYB3RTR0N and the HD fonts pack by Calinou to Foxhollow and includes additional fixes for Location text displays, and version difference texture mappings.
 
