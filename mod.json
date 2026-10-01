@@ -1,8 +1,9 @@
 {
   "id": "com.thatbran.sfa-hd-textures",
   "name": "Star Fox Adventures HD Texture Pack",
-  "version": "1.0.0",
+  "version": "1.1.0-dev",
   "author": "ThatBran",
   "description": "HD texture and text replacement pack for Star Fox Adventures, ported from the original Dolphin texture pack for use with Foxhollow.",
-  "enabled": true
+  "enabled": true,
+  "compatibility": { "abi": 2 }
 }
