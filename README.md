@@ -1,4 +1,4 @@
-# Star Fox Adventures HD Texture Pack for Foxhollow
+# Star Fox Adventures: HD Texture Pack Mod
 
 A HD texture and text replacement pack for **Star Fox Adventures**, ported for use with **Foxhollow**.
 
@@ -27,7 +27,7 @@ Only one installation of the pack is required. The GameText support is included 
 
 The pack supports the game's standard Latin text and has been tested with both North American and PAL versions of Star Fox Adventures.
 
-Some language-specific or uncommon characters may use the game's original glyph when an appropriate HD replacement is not available.
+Some language-specific or uncommon characters may use the game's original text when an appropriate HD replacement is not available.
 
 Additional international GameText coverage may be added in future versions.
 
