@@ -1,9 +1,7 @@
 name: Package HD world textures
 on:
   push:
-    branches: [main, codex/hd-textures]
   pull_request:
-    branches: [main, codex/hd-textures]
   workflow_dispatch:
 permissions:
   contents: read
