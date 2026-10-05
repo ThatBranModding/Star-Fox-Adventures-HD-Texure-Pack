@@ -4,6 +4,8 @@ A HD texture and text replacement pack for **Star Fox Adventures**, ported for u
 
 This project ports and merges the existing Dolphin HD texture pack by CYB3RTR0N and the HD fonts pack by Calinou to Foxhollow and includes additional fixes for Location text displays, and version difference texture mappings.
 
+**Each Updated Version is now split into two versions, being the HD texture pack, and the HD text and ui pack. both are required to have full HD support**
+
 ## Features
 
 - HD environment, character, object, HUD, menu, and other textures
