@@ -1,8 +1,11 @@
 {
-  "id": "com.thatbran.sfa-hd-textures",
-  "name": "Star Fox Adventures HD Texture Pack",
+  "id": "com.thatbran.sfa-hd-text",
+  "name": "Star Fox Adventures HD Text Pack",
   "version": "1.2.0",
   "author": "ThatBran",
-  "description": "HD world, character, object and effect textures for Star Fox Adventures. Install the separate HD Text Pack for text, HUD and inventory/menu icons.",
-  "enabled": true
+  "description": "HD text, HUD, menus, maps and inventory/menu item icons for Star Fox Adventures, including dynamic GameText support. Works independently or alongside the HD Texture Pack.",
+  "enabled": true,
+  "compatibility": {
+    "abi": 2
+  }
 }
