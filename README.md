@@ -13,18 +13,6 @@ Each seperate version is now on its own branch within this repository
 - HD location and boss titles
 - Support for North American and PAL versions of Star Fox Adventures
 
-
-## Installation
-
-Download the latest release and extract/install the mod through Foxhollow.
-
-The mod should appear as:
-
-**Star Fox Adventures HD Texture Pack**
-
-Only one installation of the pack is required. The GameText support is included with the main mod.
-
-
 ## Language Support
 
 The pack supports the game's standard Latin text and has been tested with both North American and PAL versions of Star Fox Adventures.
