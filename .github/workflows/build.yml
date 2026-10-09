@@ -21,8 +21,8 @@ jobs:
             configure: cmake -S . -B build -A x64
             package_dir: windows-amd64
             binary: mod.dll
-            zip_name: sfa-hd-text-1.2.0-windows-x64.zip
-            artifact: sfa-hd-text-1.2.0-windows-x64
+            zip_name: sfa-hd-text-1.2.1-windows-x64.zip
+            artifact: sfa-hd-text-1.2.1-windows-x64
 
           - name: Linux x64
             os: ubuntu-latest
@@ -30,8 +30,8 @@ jobs:
             configure: cmake -S . -B build -DCMAKE_BUILD_TYPE=Release
             package_dir: linux-amd64
             binary: mod.so
-            zip_name: sfa-hd-text-1.2.0-linux-x64.zip
-            artifact: sfa-hd-text-1.2.0-linux-x64
+            zip_name: sfa-hd-text-1.2.1-linux-x64.zip
+            artifact: sfa-hd-text-1.2.1-linux-x64
 
           - name: macOS Apple Silicon
             os: macos-15
@@ -39,8 +39,8 @@ jobs:
             configure: cmake -S . -B build -DCMAKE_BUILD_TYPE=Release -DCMAKE_OSX_ARCHITECTURES=arm64
             package_dir: macos-arm64
             binary: mod.so
-            zip_name: sfa-hd-text-1.2.0-macos-arm64.zip
-            artifact: sfa-hd-text-1.2.0-macos-arm64
+            zip_name: sfa-hd-text-1.2.1-macos-arm64.zip
+            artifact: sfa-hd-text-1.2.1-macos-arm64
 
     runs-on: ${{ matrix.os }}
 
@@ -195,24 +195,24 @@ jobs:
         shell: bash
         run: |
           cd package
-          cmake -E tar cfv ../sfa-hd-text-1.2.0-all-platforms.zip --format=zip sfa-hd-text
+          cmake -E tar cfv ../sfa-hd-text-1.2.1-all-platforms.zip --format=zip sfa-hd-text
 
       - name: Create Foxhollow .fox bundle
         shell: bash
         run: |
           cd package/sfa-hd-text
-          cmake -E tar cfv ../../sfa-hd-text-1.2.0.fox --format=zip mod.json assets textures lib README.md LICENSE README.md LICENSE
+          cmake -E tar cfv ../../sfa-hd-text-1.2.1.fox --format=zip mod.json assets textures lib README.md LICENSE
 
       - name: Upload all-platforms ZIP
         uses: actions/upload-artifact@v4
         with:
-          name: sfa-hd-text-1.2.0-all-platforms
-          path: sfa-hd-text-1.2.0-all-platforms.zip
+          name: sfa-hd-text-1.2.1-all-platforms
+          path: sfa-hd-text-1.2.1-all-platforms.zip
           compression-level: 0
 
       - name: Upload Foxhollow .fox bundle
         uses: actions/upload-artifact@v4
         with:
-          name: sfa-hd-text-1.2.0-fox-bundle
-          path: sfa-hd-text-1.2.0.fox
+          name: sfa-hd-text-1.2.1-fox-bundle
+          path: sfa-hd-text-1.2.1.fox
           compression-level: 0
