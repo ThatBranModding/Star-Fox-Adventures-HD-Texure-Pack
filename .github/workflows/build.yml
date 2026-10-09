@@ -38,7 +38,7 @@ jobs:
             platform: macos-arm64
             configure: cmake -S . -B build -DCMAKE_BUILD_TYPE=Release -DCMAKE_OSX_ARCHITECTURES=arm64
             package_dir: macos-arm64
-            binary: mod.dylib
+            binary: mod.so
             zip_name: sfa-hd-text-1.2.0-macos-arm64.zip
             artifact: sfa-hd-text-1.2.0-macos-arm64
 
@@ -83,7 +83,7 @@ jobs:
         shell: bash
         run: |
           set -euo pipefail
-          bin="build/sfa-hd-text/lib/macos-arm64/mod.dylib"
+          bin="build/sfa-hd-text/lib/macos-arm64/mod.so"
           file "$bin"
           archs="$(lipo -archs "$bin")"
           echo "Architectures: $archs"
@@ -187,7 +187,7 @@ jobs:
           test -f package/sfa-hd-text/assets/glyphs.bin
           test -f package/sfa-hd-text/lib/windows-amd64/mod.dll
           test -f package/sfa-hd-text/lib/linux-amd64/mod.so
-          test -f package/sfa-hd-text/lib/macos-arm64/mod.dylib
+          test -f package/sfa-hd-text/lib/macos-arm64/mod.so
           test -d package/sfa-hd-text/textures
           find package/sfa-hd-text/lib -type f -print
 
