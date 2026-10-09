@@ -6,6 +6,9 @@
   "description": "HD text, HUD, menus, maps and inventory/menu item icons for Star Fox Adventures, including dynamic GameText support. Works independently or alongside the HD Texture Pack.",
   "enabled": true,
   "compatibility": {
-    "abi": 2
+    "abi": 2,
+    "port": {
+      "min": "1.0.21"
+    }
   }
 }
