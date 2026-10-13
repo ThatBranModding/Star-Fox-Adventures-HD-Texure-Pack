@@ -1,14 +1,14 @@
 {
   "id": "com.thatbran.sfa-hd-text",
   "name": "Star Fox Adventures HD Text Pack",
-  "version": "1.2.1",
+  "version": "1.2.2",
   "author": "ThatBran",
   "description": "HD text, HUD, menus, maps and inventory/menu item icons for Star Fox Adventures, including dynamic GameText support. Works independently or alongside the HD Texture Pack.",
   "enabled": true,
   "compatibility": {
     "abi": 2,
     "port": {
-      "min": "1.0.21"
+      "min": "1.0.22"
     }
   }
 }
